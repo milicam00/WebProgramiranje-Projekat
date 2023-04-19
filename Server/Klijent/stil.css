@@ -1,0 +1,104 @@
+
+
+body{
+    
+   
+    background-image: url("skola-plivanja-za-decu.jpg");
+    background-size: 147%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.table,tr,th,td{
+    border: 1px solid #040405;
+    font-family: monospace;
+}
+
+.tabela{
+    border-collapse: collapse;
+    flex-grow: 1;
+    margin-right: 0px;
+ 
+    
+}
+
+.formDete
+{
+    display:flex;
+    flex-direction: column;
+    margin:1px;
+    background-color: rgba(157, 215, 230, 0.733);
+}
+
+.divForma
+{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 270px;
+    border:1px solid black;
+   
+}
+.inputImeDeteta,.inputPrezimeDeteta,.inputGodineDeteta,.inputImeRoditelja,.inputPrezimeRoditelja,.inputTelefon,.inputEmailRoditelja,.select,.lab
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.GlavniKontejner
+{
+
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.dugme
+{
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.redovi{
+    cursor: pointer;
+}
+.naslov{
+    text-align: center;
+    
+    color: rgb(3, 0, 0);
+    font-family:monospace;
+    font-size: 30px;
+}
+
+.divTabela
+{
+   
+  
+    
+    width: 500px;
+    min-width: 500px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction:column;
+    flex-wrap:wrap-reverse;
+    flex-basis: 300px;
+    
+}
+
+.tabela
+{
+    border: 1px solid #040405;
+    font-family: monospace;
+    background-color: rgba(157, 215, 230, 0.733);
+    border:2px solid black;
+}
+.tabela,td{
+    border: 1px solid #233C6E;
+}
+
+td{
+    text-align: center;
+}
